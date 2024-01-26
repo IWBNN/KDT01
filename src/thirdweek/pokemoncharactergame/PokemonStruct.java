@@ -198,7 +198,7 @@ public class PokemonStruct {
             System.out.println(this.getNickName() + "이(가) 진화에 실패했습니다!");
             return this;
         }
-    }
+    } // 깃?
 
     public static PokemonStruct[] groupEvolve(ArrayList<PokemonStruct> beforeEvolveArray) {
         PokemonStruct[] afterEvolvedArray = new PokemonStruct[10]; // 유연하게 배열 길이를 바꿀 수 있게 바꾸어 보기
