@@ -212,7 +212,7 @@ public class PokemonStruct {
             System.out.println(afterEvolvedArray[count]);
             count++;
         }
-        return afterEvolvedArray;
+        return afterEvolvedArray;//
     }
 
     public static void pokemonObjectUnitBattle(PokemonStruct pokemon1, PokemonStruct pokemon2) {
